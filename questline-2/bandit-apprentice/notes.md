@@ -93,3 +93,47 @@ Display the contents of the password file
 got '/var/lib/dpkg/info/bandit7.password'.
 -Used 'cat /var/lib/dpkg/info/bandit7.password'.
 -Retreived password for level 7.
+
+## Level 7
+**Goal:**Find the password for level 8 stored in 'data.txt' next to the word "millionth".
+
+**Command:**'''bash
+ssh bandit7@bandit.labs.overthewire.org -p 2220
+password:dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+ls
+grep "millionth" data.txt
+
+-Retreived password for level 8.
+
+## Level 8
+**Goal:**Find the password for level 9 stored in 'data.txt'.The password is the only line that occurs once.
+
+**Commands:**'''bash
+ssh bandit8@bandit.labs.overthewire.org -p 2220
+password:4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+ls
+sort data.txt | uniq -u
+
+-Retreived password for level 9.
+
+## Level 9
+**Goal:**Find the password for level 10 stored 'data.txt'.The password is a human-readable string preceded by several '=' characters.
+
+**Commands:**'''bash
+ssh bandit9@bandit.labs.overthewire.org -p 2220
+password:FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+ls -l
+strings data.txt | grepp "===="
+
+-Retreived password for level 10
+
+## Level 10
+**Goal:**Find the password for the next level (or verify final password) stored in 'data.txt' as base64 encoded data.
+
+**Commands:**'''bash
+ssh bandit10@bandit.las.overthewire.org -p 2220
+password:dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+ls
+base64 -d data.txt
+
+-Retreived password for level 11
