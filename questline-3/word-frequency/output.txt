@@ -1,0 +1,12 @@
+the → 4
+dog → 2
+fox → 2
+amused → 1
+brown → 1
+by → 1
+jumps → 1
+lazy → 1
+not → 1
+over → 1
+quick → 1
+was → 1
