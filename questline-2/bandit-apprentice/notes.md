@@ -3,14 +3,14 @@
  This file contains my notes and commands for solvig OverTheWire Bandit levels 0 to 10
  
 ## Level 00
-Command to connect:ssh bandit0@bandit.labs.overthewire.org -p 2220
+**Command to connect:ssh bandit0@bandit.labs.overthewire.org -p 2220
 
-Password:bandit0
+**Password:bandit0
 
-Solution steps:Listed the files using 'ls'.
-Found the file named 'readme'.
-Used 'cat readme' to read the file content.
-Retrieved the password for level 1
+**Solution steps:Listed the files using 'ls'.
+**Found the file named 'readme'.
+**Used 'cat readme' to read the file content.
+**Retrieved the password for level 1
 
 ## Level 01
 
