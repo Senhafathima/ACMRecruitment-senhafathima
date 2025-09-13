@@ -23,7 +23,7 @@ Solution steps:-Listed all files using 'ls -la'.
 -Used 'cat./-' to read the file contents.
 -Retreived the password for level 2.
 
-## Level 2
+## Level 02
 Command to connect:ssh bandit2@bandit.labs.overthewire.org -p 2220
 
 Password:263JGJPfgU6LtdEvgfWU1XP5yac29mFx
@@ -33,7 +33,7 @@ Solution steps:-Listed all files using 'l'.
 -Used 'cat -- "--spaces in this filename--" to read the file contents.
 -Retreived the password for level 3.
 
-## Level 3
+## Level 03
 Command to connect:ssh bandit3@bandit.labs.overthewire.org -p 2220
 
 Password:MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
@@ -46,7 +46,7 @@ Solution steps:-Listed all files using 'ls -la'.
 -Used 'cat ...Hiding-From-You' to read the file contents.
 -Retreived the password for level 4.
 
-## Level 4
+## Level 04
 Command to connect:ssh bandit4@bandit.labs.overthewire.org -p 2220
 
 Password:2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
@@ -59,7 +59,7 @@ Solution steps:-Listed all files using 'ls'.
 -Used "cat./- 'filename'" for each to read the file contents.
 -Retreived password for level 5 from file07.
 
-## Level 5
+## Level 05
 **Goal:**Find password for level 6 hidden in one of the directories in 'inhere'.
 
 Command to connect:ssh bandit5@bandit.labs.overthewire.org -p 2220
@@ -75,7 +75,7 @@ check inside each directory
       find . -type f -size 1033c -exec cat {} \;
 -Retreived password for level 6.
 
-## Level 6
+## Level 06
 **Goal:**Find the password for level 7
  Command to connect:ssh bandit6@bandit.labs.overthewire.org -p 2220
 
@@ -94,7 +94,7 @@ got '/var/lib/dpkg/info/bandit7.password'.
 -Used 'cat /var/lib/dpkg/info/bandit7.password'.
 -Retreived password for level 7.
 
-## Level 7
+## Level 07
 **Goal:**Find the password for level 8 stored in 'data.txt' next to the word "millionth".
 
 **Command:**'''bash
@@ -105,7 +105,7 @@ grep "millionth" data.txt
 
 -Retreived password for level 8.
 
-## Level 8
+## Level 08
 **Goal:**Find the password for level 9 stored in 'data.txt'.The password is the only line that occurs once.
 
 **Commands:**'''bash
@@ -116,7 +116,7 @@ sort data.txt | uniq -u
 
 -Retreived password for level 9.
 
-## Level 9
+## Level 09
 **Goal:**Find the password for level 10 stored 'data.txt'.The password is a human-readable string preceded by several '=' characters.
 
 **Commands:**'''bash
