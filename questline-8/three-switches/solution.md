@@ -2,11 +2,11 @@
 
 ## Problem Restatement
 You are in a room with **three switches**. Each switch controls a single **ligh>
-The challenge: **Determine exactly which switch controls the bulb, but you may >
+The challenge: **Determine exactly which switch controls the bulb, but you may only enter the bulb's room once.**
 ___
 
 ## Strategy
-The trick is to use not only whether the bulb is **on or off**, but also whethe>
+The trick is to use not only whether the bulb is **on or off**, but also whether it is **warm or cold** to the touch.
 ___
 
 ## Step-by-Step Sequence
