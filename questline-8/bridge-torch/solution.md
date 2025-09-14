@@ -6,10 +6,10 @@ Four people need to cross a narrow bridge at night with one torch.
 - The bridge can hold at most **two people** at once.
 - The torch is required for crossing.
 - When two cross together, they move at the **slower person's pace**.
-- Someone must always bring the torch back if people remain on the original sid>
+- Someone must always bring the torch back if people remain on the original side.
 
 ## Optimal Strategy
-The key is to minimize the use of the two slowest people (7 and 10) while ensur>
+The key is to minimize the use of the two slowest people (7 and 10) while ensuring the two fastest (1 and 2) handle most of the returns.
 
 ### Step-by-step Sequence
 1. **1 and 2 cross** = 2 minutes (torch moves forward).
@@ -42,5 +42,5 @@ The key is to minimize the use of the two slowest people (7 and 10) while ensur>
 
 ## Reasoning
 - If 1 always escorts, the total time increases because 1 keeps returning.
-- If 2 helps with returns, the strategy balances crossings so that the 7 and 10>
+- If 2 helps with returns, the strategy balances crossings so that the 7 and 10 only cross once together, minimizing the high-cost trips.
 - This results in the optimal **minimum total time of 17 minutes**.
