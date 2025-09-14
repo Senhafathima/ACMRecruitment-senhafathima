@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Simple Counter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap" role="main" aria-labelledby="counter-label">
+    <h1 id="counter-label">Counter</h1>
+
+    <section class="counter-card" aria-live="polite">
+      <div class="display" id="display" aria-atomic="true">0</div>
+
+      <div class="controls">
+        <button id="decrement" class="btn" aria-label="Decrease value">−</butto>
+        <button id="increment" class="btn" aria-label="Increase value">+</butto>
+      </div>
+
+      <div class="extras">
+        <label for="step">Step</label>
+        <input id="step" type="number" min="1" value="1" />
+        <button id="reset" class="link">Reset</button>
+      </div>
+    </section>
+
+    <footer class="note">You can also use keyboard: ArrowUp to increment, Arrow>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
