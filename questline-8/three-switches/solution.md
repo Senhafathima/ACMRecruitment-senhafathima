@@ -1,7 +1,7 @@
 # Three Switches Puzzle - Optimal Strategy
 
 ## Problem Restatement
-You are in a room with **three switches**. Each switch controls a single **ligh>
+You are in a room with **three switches**. Each switch controls a single **light**.
 The challenge: **Determine exactly which switch controls the bulb, but you may only enter the bulb's room once.**
 ___
 
