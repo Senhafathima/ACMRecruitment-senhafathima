@@ -30,7 +30,7 @@ The key is to minimize the use of the two slowest people (7 and 10) while ensuri
 
 5. **1 and 2 cross again** = 2 minutes.
    - Left: (none)
-   -Right: 1, 2, 7, 10
+   - Right: 1, 2, 7, 10
 
 ### Total Time
 - Step 1: 2
