@@ -18,7 +18,7 @@ The key is to minimize the use of the two slowest people (7 and 10) while ensuri
 
 2. **1 returns** = 1 minute.
    - Left: 1, 7, 10
-   - Right: 1, 2
+   - Right: 2
 
  3. **7 and 10 cross** = 10 minutes.
     - Left: 1
